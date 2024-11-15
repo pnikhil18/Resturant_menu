@@ -77,12 +77,5 @@ function bar(){
         customer.style.transform = `translateX(-${count * 100}%)`
     })
 }
+ 
 
-// let a = {
-//     greet:"HI"
-// }
-// let c;
-// c=a;
-// a.age=11;
-
-// console.log(c.age);
