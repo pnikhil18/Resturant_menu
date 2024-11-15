@@ -78,11 +78,11 @@ function bar(){
     })
 }
 
-let a = {
-    greet:"HI"
-}
-let c;
-c=a;
-a.age=11;
+// let a = {
+//     greet:"HI"
+// }
+// let c;
+// c=a;
+// a.age=11;
 
-console.log(c.age);
+// console.log(c.age);

@@ -82,12 +82,19 @@ nav input{
     font-size: 22px;
     width: 160px;
     height: 40px;
+    cursor: pointer;
 }
+.text button:hover{
+background-color: orange;
+}
+
+
 .crd{
     display: flex;
-    /* justify-content: center; */
-    margin-left: 115px;
+    /* justify-content: space-around; */
+    margin-left:33%;
     color: black;
+    width :100%;
 }
 .crd .card {
     width: 300px;
@@ -97,6 +104,7 @@ nav input{
     color: black;
     margin-inline: 11px;
     margin-top: 84px;
+    
 
 }
 .card img{
@@ -120,6 +128,10 @@ nav input{
     font-size: 22px;
     width: 140px;
     height: 38px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: orange;
 }
 
 .blog{
@@ -148,6 +160,10 @@ nav input{
     font-size: 20px;
     border-radius: 2px;
 }
+.blog a:hover{
+    background-color: orange;
+}
+
 .blog img{
     width: 100%;
 }
@@ -184,10 +200,18 @@ nav input{
 .head h1{
     text-align: center;
     font-size: 44px;
-    margin-top: 53px;
-    margin-left: 22px;
+    margin-top: 43px;
+    
 }
-.head span{
+
+.headT h1{
+    text-align: center;
+    font-size: 44px;
+    margin-top: 53px;
+    margin-left: 50%;
+}
+
+ span{
     color: rgb(255, 119, 0);
 }
 .btn{
