@@ -27,23 +27,48 @@ function myFun(){
 
 
 
-function nav(){
-    let nav = document.querySelector(".nav");
-    nav.style.display="block"
-    let login = document.querySelector(".login");
-    login.style.display="none";
+// function nav(){
+//     let nav = document.querySelector(".nav");
+//     nav.style.display="block"
+//     let login = document.querySelector(".login");
+//     login.style.display="none";
 
-}
+// }
 
-function login(){
-    let login = document.querySelector(".login");
-    login.style.display="block";
+// function login(){
+//     let login = document.querySelector(".login");
+//     login.style.display="block";
 
-    let nav = document.querySelector(".nav");
-    nav.style.display="none"
+//     let nav = document.querySelector(".nav");
+//     nav.style.display="none"
 
-}
+// }
+let loginBtn = document.querySelector(".log");
+let login = document.querySelector(".login");
 
+let vis1=true;
+loginBtn.addEventListener("click",()=>{
+    if(vis1==true){
+        login.style.display="block";
+        vis1=false;
+    }else{
+        login.style.display="none";
+        vis1=true;
+    }
+});
+let navBtn = document.querySelector(".navigation");
+let nav = document.querySelector(".nav");
+
+let vis2=true;
+navBtn.addEventListener("click",()=>{
+    if(vis2==true){
+        nav.style.display="block";
+        vis2=false;
+    }else{
+        nav.style.display="none";
+        vis2=true;
+    }
+});
 
 // Slide bar
 

@@ -304,3 +304,8 @@ background-color: orange;
     cursor: pointer;
     
 }
+
+.nav a{
+    text-decoration: none;
+    color:black;
+}

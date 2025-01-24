@@ -22,9 +22,9 @@
                 <i  class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="icon">
-                <i  onclick="login()" class="fa-regular fa-user"></i>
+         <button class="log"> <i   class="fa-regular fa-user"></i></button><!-- onclick="login()" -->
                 <i class="fa-solid fa-cart-shopping"></i>
-                <i onclick="nav()" class="fa-solid fa-bars"></i>
+                <button class="navigation"> <i  class="fa-solid fa-bars"></i>   </button><!--  onclick="nav()" -->
             </div>
         </nav>
 
@@ -36,13 +36,12 @@
             <button>Log In</button>
 
         </div>
+
         <div class="nav">
-            <p>Home</p>
-            <p>Foods</p>
-            <p>Blog</p>
-            <p>Customer</p>
-
-
+            <p><a href=#>Home</a></p>
+            <p><a href="#fs">Foods</a></p>
+            <p><a href="#bg">Blog</a></p>
+            <p><a href="#cst">Customer</a></p>
         </div>
 
         <!-- main Page -->
@@ -62,7 +61,7 @@
             <tr>
                 <td>
                     <div class="headT">
-                        <h1>Our <span>Foods</span></h1>
+                        <h1 id="fs">Our <span>Foods</span></h1>
                     </div>
                     <div class="crd">
                         <div class="card">
@@ -113,7 +112,7 @@
             <tr>
                 <td>
                     <div class="headT">
-                        <h1>Our <span>Blogs</span></h1>
+                        <h1 id="bg">Our <span>Blogs</span></h1>
                     </div>
                     <div class="crd">
                         <div class="blog">
@@ -143,7 +142,7 @@
 
 
         <div class="head">
-            <h1>Customer <span>Review</span></h1>
+            <h1 id="cst">Customer <span>Review</span></h1>
         </div>
         <div class="review">
 
